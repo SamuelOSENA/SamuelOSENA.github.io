@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #211b18;
+    color: rgba(202, 79, 63, 255);
+}
+
+nav {
+    display: flex;
+    background-color: #211b18;
+    height: 160px;
+    width: 100%;
+    z-index: 1;
+}
+
+nav h1 {
+    color: rgba(202, 79, 63, 255);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+nav li {
+    list-style: none;
+    padding: 0px 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(202, 79, 63, 255);
+}
+
+.nav-logo {
+    height: 150px;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: -10px;
+}
+
+.nosotros {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    display: flow-root;
+    color: rgba(202, 79, 63, 255);
+    background-image: url(/MI-PAGINA/imagenes/NOSOTROS.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px -200px;
+}
+
+.nosotros h1 {
+    background-color: #211b18;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 36px;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.nosotros p {
+    text-align: center;
+    background-color: #211b18;
+    width: 60%;
+    margin: 0 auto;
+    padding: 40px;
+    font-size: 20px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: rgba(202, 79, 63, 255);
+    background-color: #211b18;
+}
+
+.one {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.one h4 {
+    margin-right: 50px;
+    font-size: 25px;
+}
+
+.two {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.two h5 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+.contact p {
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 0 auto
+}
+
+.contact label {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.videojuegos h1 {
+    display: flex;
+    text-align: start;
+}
+
+
+
+.Albion {
+    width: 100%;
+    height: 349px;
+    background-image: url(/MI-PAGINA/imagenes/backgrondAlbion.jfif);
+}
+
+.Albion-contenido {
+    background-color: rgba(0, 0, 0, 0.578);
+    padding-left: 1%;
+    width: 60%;
+    height: 100%;
+    float: left;
+    color: rgb(255, 255, 255);
+}
+.Albion-contenido p{
+    padding-top: 1%;
+
+}
+.logo-albion {
+    margin-top: 20px;
+    height: 90px;
+    width: 150px;
+}
+
+.Albion-video {
+    
+    width: 39%;
+    height: 100%;
+    float: right;
+}
+
+.Albion-video video {
+    padding-top: 50px;
+    height: 249px;
+}
+
+.Ark{
+    width: 100%;
+    height: 384px;
+    background-image: url(/MI-PAGINA/imagenes/backgrondArk.jpg);
+    background-position: right;
+}
+.logo-Ark{
+    height: 90px;
+    width: 90px;
+}
+.Ark-contenido{
+    background-color: rgba(0, 0, 0, 0.578);
+    width: 60%;
+    height: 100%;
+    float: right;
+    color: rgb(255, 255, 255);
+
+}
+.Ark-video{
+    width: 39%;
+    height: 100%;
+    float: left;
+}
+.Ark-video video{
+    padding-top: 20px;
+
+    padding-left: 1%;
+    width: 100%;
+    height: 349px;
+}
+
+.Bastion {
+    width: 100%;
+    height: 369px;
+    background-image: url(/MI-PAGINA/imagenes/backgrondBastion.jpg);
+    background-position: center;
+   
+}
+
+.Bastion-contenido {
+    background-color: rgba(0, 0, 0, 0.578);
+
+    margin-left: 1%;
+    width: 60%;
+    height: 100%;
+    float: left;
+    color: rgb(255, 255, 255);
+    
+}
+.logo-bastion {
+    height: 90px;
+    width: 150px;
+}
+
+.Bastion-video {
+    width: 39%;
+    height: 100%;
+    float: right;
+}
+
+.Bastion-video video {
+    padding-top: 50px;
+    height: 249px;
+}
+
+.Blasphemous{
+    width: 100%;
+    height: 249px;
+    background-image: url(/MI-PAGINA/imagenes/backgrondBlasphemous.jpeg);
+    background-position:right;
+}
+.logo-Blasphemous{
+    height: 90px;   
+    width: 190px;
+}
+.Blasphemous-contenido{
+    margin-left: 1%;
+    width: 60%;
+    height: 100%;
+    float: right;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.578);
+
+}
+.Blasphemous-video{
+    width: 39%;
+    height: 100%;
+    float: left;
+}
+.Blasphemous-video video{
+    width: 100%;
+    height: 249px;
+}
+
+.GTA5 {
+    width: 100%;
+    height: 420px;
+    background-image: url(/MI-PAGINA/imagenes/backgrondGTA5.jfif);
+}
+
+.GTA5-contenido {
+    background-color: rgba(0, 0, 0, 0.578);
+
+    width: 60%;
+    height: 100%;
+    float: left;
+    color: rgb(255, 255, 255);
+    
+}
+.GTA5-contenido p{
+    margin-left: 1%;
+
+}
+.logo-GTA5 {
+    margin-left: 1%;
+
+    height: 150px;
+    width: 150px;
+}
+
+.GTA5-video {
+    width: 39%;
+    height: 100%;
+    float: right;
+}
+
+.GTA5-video video {
+    height: 300px;
+    padding-top: 60px;
+}
