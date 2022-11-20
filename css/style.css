@@ -210,13 +210,14 @@ footer {
 
 .Bastion-contenido {
     background-color: rgba(0, 0, 0, 0.578);
-
-    margin-left: 1%;
     width: 60%;
     height: 100%;
     float: left;
     color: rgb(255, 255, 255);
     
+}
+.Bastion-contenido p{
+    margin-left: 1%;
 }
 .logo-bastion {
     height: 90px;
